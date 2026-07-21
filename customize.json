@@ -1,0 +1,31 @@
+{
+  "greeting": "你好啊",
+  "name": "小卢！",
+  "greetingText": "很庆幸我们彼此相遇",
+  "wishText": "朱颜长似，头上花枝，岁岁年年。愿君青丝不老，岁岁皆欢。",
+  "imagePath": "img/lydia2.png",
+  "text1": "今天是你的生日啊!!! :D",
+  "textInChatBox": "非常非常非常诚挚的祝你生日快乐！！！很多很多的快乐……",
+  "sendButtonLabel": "发送",
+  "text2": "我想给你一个惊喜",
+  "text3": "我认真的想了很久",
+  "text4": "（ヾ(≧▽≦*)oO(∩_∩)Oo(●ˇ∀ˇ●)╰(*°▽°*)╯）我认识到，你是",
+  "text4Adjective": "我的青春",
+  "text5Entry": "出现在，",
+  "text5Content": "我的盛夏",
+  "smiley": ":)",
+  "bigTextPart1": "所",
+  "bigTextPart2": "以",
+  "wishHeading": "生日快乐啊!",
+  "outroText": "我希望你喜欢这个小小的惊喜!",
+  "replayText": "如果你喜欢的话，我会再发送一次!或者……I'm here!",
+  "outroSmiley": ":)",
+  "music": "./music/bgMusic.mp3",
+  "fonts": [
+    {
+      "name": "Ma Shan Zheng",
+      "path": "https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap"
+    }
+  ]
+}
+
