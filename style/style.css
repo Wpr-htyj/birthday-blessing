@@ -41,6 +41,10 @@ canvas {
   margin: 0;
 }
 
+.smiley2 {
+  display: inline-block;
+}
+
 .container div.seven,
 .container div.eight {
   width: 100vw;

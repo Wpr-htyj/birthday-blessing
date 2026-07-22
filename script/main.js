@@ -27,6 +27,8 @@ const fetchData = () => {
             audioUrl = data[customData]
             audio = new Audio(audioUrl)
             audio.preload = "auto"
+          } else if (customData === "smiley2") {
+            document.querySelector(`[data-node-name*="${customData}"]`).innerHTML = "&#58;D"
           } else {
             document.querySelector(`[data-node-name*="${customData}"]`).innerText = data[customData]
           }
@@ -111,8 +113,21 @@ const animationTimeline = () => {
       y: 10
       // scale: 0.7
     })
+    .from(
+      ".smiley2",
+      0.7,
+      {
+        rotationX: 15,
+        rotationZ: -10,
+        skewY: "-5deg",
+        y: 50,
+        z: 10,
+        opacity: 0
+      },
+      "+=0.5"
+    )
     .to(
-      ".three .smiley",
+      ".smiley2",
       0.7,
       {
         rotation: 90,
@@ -426,5 +441,5 @@ function showFullscreenBlessing() {
         tenDiv.style.transform = "scale(1)"
       }
     })
-  }, 10000)
+  }, 15000)
 }
