@@ -403,7 +403,7 @@ function showFullscreenBlessing() {
   tenDiv.style.display = "block"
   container.innerHTML = ""
   
-  const blessingCount = 150
+  const blessingCount = 300
   const colors = [
     "#ff6b81", "#ffa502", "#ffd32a", "#2ed573", 
     "#1e90ff", "#5352ed", "#a55eea", "#ff4757",

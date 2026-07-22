@@ -393,6 +393,8 @@ canvas {
   z-index: 9999;
   display: none;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .blessing-container {
